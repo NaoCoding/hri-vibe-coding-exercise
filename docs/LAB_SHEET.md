@@ -31,9 +31,18 @@ TOTAL             -60
 ```
 
 after:
+```
+scenario        score   outcomes
+demo               30   success, success, success
+A_unreachable      15   gave_up, gave_up, gave_up
+B_person           30   success, success, success
+C_glitches         30   success, success, success
+D_slippery         30   success, success, success
+E_everything       30   success, success, success
+TOTAL             165
+```
 
-
-Score from `python run.py controllers/my_controller.py --eval`: before -60, after 
+Score from `python run.py controllers/my_controller.py --eval`: before -60, after 165
 
 ## Part 4: Debrief
 
