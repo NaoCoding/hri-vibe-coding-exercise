@@ -46,6 +46,6 @@ Score from `python run.py controllers/my_controller.py --eval`: before -60, afte
 
 ## Part 4: Debrief
 
-1. Wrong code vs. missing rule:
-2. Did the LLM's explanation match the code?
-3. What we would need before testing near real people:
+1. Wrong code vs. missing rule: obstacle detection and prevent collision
+2. Did the LLM's explanation match the code? Yes
+3. What we would need before testing near real people: more simulation and safety test, and some limitation check for the hardware and reality limitation.
